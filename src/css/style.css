@@ -1,0 +1,16 @@
+.container {
+    text-align: center;
+}
+
+#btn {
+    float: right;
+}
+
+.fa-trash {
+    float: right;
+}
+
+.fa-trash:hover {
+	color: rgb(117, 241, 34);
+	cursor: pointer;
+}
