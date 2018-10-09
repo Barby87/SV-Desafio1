@@ -21,9 +21,8 @@ function comment() {
     contenedorElemento.appendChild(textNewComment);
     newComments.appendChild(trash);
     newComments.appendChild(contenedorElemento);
-    containerComment.appendChild(newComments);
     newComments.appendChild(separator);
-
+    containerComment.appendChild(newComments);
 
     trash.addEventListener('click', () => {
         containerComment.removeChild(newComments);
